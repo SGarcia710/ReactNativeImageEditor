@@ -42,7 +42,7 @@ const ProjectsScreen = (props: Props) => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.title}>Projects</Text>
+      <Text style={styles.title}>Projects List</Text>
 
       <ScrollView style={styles.projectList}>
         {React.Children.toArray(
